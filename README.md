@@ -41,10 +41,6 @@ This is a full-featured e-commerce backend built using **Node.js**, **Express**,
 ├── index.js # App entry point
 ├── package.json
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🔐 Environment Variables (`.env`)
@@ -86,7 +82,6 @@ npm start
 Flow:
 User places an order → backend creates Stripe PaymentIntent
 
-Frontend uses client_secret to confirm payment
 
 Stripe calls your /webhook endpoint (via Stripe CLI)
 
@@ -147,9 +142,3 @@ POST /api/login
 
 ✅ Postman Collection
 A Postman collection is available with all request samples for testing each API.
-
-vbnet
-Copy
-Edit
-
-Let me know if you want a separate `stripe.md` with just payment details for your mentor or team
