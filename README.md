@@ -47,7 +47,6 @@ This is a full-featured e-commerce backend built using **Node.js**, **Express**,
 
 ```env
 PORT=8000
-DB_NAME=your_db
 DB_USER=root
 DB_PASSWORD=your_password
 DB_HOST=localhost
