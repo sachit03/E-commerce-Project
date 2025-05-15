@@ -1,4 +1,6 @@
 const sequelize= require("./config/database");
+require("dotenv").config();
+console.log("Loaded STRIPE_SECRET_KEY:", process.env.STRIPE_SECRET_KEY);
 const express= require("express");
 const app= express();
 const bodyParser=require("body-parser");
